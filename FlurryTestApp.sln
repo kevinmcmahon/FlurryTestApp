@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlurryTestApp", "FlurryTestApp\FlurryTestApp.csproj", "{6E957814-CF9D-4E25-A80A-792C9DAC1623}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E957814-CF9D-4E25-A80A-792C9DAC1623}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{6E957814-CF9D-4E25-A80A-792C9DAC1623}.Debug|iPhone.Build.0 = Debug|iPhone
+		{6E957814-CF9D-4E25-A80A-792C9DAC1623}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{6E957814-CF9D-4E25-A80A-792C9DAC1623}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{6E957814-CF9D-4E25-A80A-792C9DAC1623}.Release|iPhone.ActiveCfg = Release|iPhone
+		{6E957814-CF9D-4E25-A80A-792C9DAC1623}.Release|iPhone.Build.0 = Release|iPhone
+		{6E957814-CF9D-4E25-A80A-792C9DAC1623}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{6E957814-CF9D-4E25-A80A-792C9DAC1623}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = FlurryTestApp\FlurryTestApp.csproj
+	EndGlobalSection
+EndGlobal
