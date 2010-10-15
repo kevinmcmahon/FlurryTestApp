@@ -29,7 +29,8 @@
     <MtouchDebug>True</MtouchDebug>
     <ConsolePause>false</ConsolePause>
     <MtouchLink>None</MtouchLink>
-    <MtouchExtraArgs>-gcc_flags "-L${ProjectDir} -lFlurryWithLocation -framework CFNetwork -force_load ${ProjectDir}/libFlurryWithLocation.a"</MtouchExtraArgs>
+    <MtouchExtraArgs>-gcc_flags "-weak_framework UIKit
+-weak_library /usr/lib/libSystem.B.dylib -L${ProjectDir} -lFlurryWithLocation -framework CFNetwork -force_load ${ProjectDir}/libFlurryWithLocation.a"</MtouchExtraArgs>
     <MtouchI18n />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
@@ -41,7 +42,8 @@
     <MtouchDebug>False</MtouchDebug>
     <ConsolePause>false</ConsolePause>
     <MtouchLink>None</MtouchLink>
-    <MtouchExtraArgs>-gcc_flags "-L${ProjectDir} -lFlurryWithLocation -framework CFNetwork -force_load ${ProjectDir}/libFlurryWithLocation.a"</MtouchExtraArgs>
+    <MtouchExtraArgs>-gcc_flags "-weak_framework UIKit
+-weak_library /usr/lib/libSystem.B.dylib  -L${ProjectDir} -lFlurryWithLocation -framework CFNetwork -force_load ${ProjectDir}/libFlurryWithLocation.a"</MtouchExtraArgs>
     <MtouchI18n />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
@@ -55,7 +57,8 @@
     <MtouchDebug>True</MtouchDebug>
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Developer</CodesignKey>
-    <MtouchExtraArgs>-gcc_flags "-L${ProjectDir} -lFlurryWithLocation -framework CFNetwork -force_load ${ProjectDir}/libFlurryWithLocation.a"</MtouchExtraArgs>
+    <MtouchExtraArgs>-gcc_flags "-weak_framework UIKit
+-weak_library /usr/lib/libSystem.B.dylib  -L${ProjectDir} -lFlurryWithLocation -framework CFNetwork -force_load ${ProjectDir}/libFlurryWithLocation.a"</MtouchExtraArgs>
     <MtouchI18n />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
@@ -67,7 +70,8 @@
     <MtouchDebug>False</MtouchDebug>
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Developer</CodesignKey>
-    <MtouchExtraArgs>-v -gcc_flags "-L${ProjectDir} -lFlurryWithLocation -framework CFNetwork -force_load ${ProjectDir}/libFlurryWithLocation.a"</MtouchExtraArgs>
+    <MtouchExtraArgs>-gcc_flags "-weak_framework UIKit
+-weak_library /usr/lib/libSystem.B.dylib -L${ProjectDir} -lFlurryWithLocation -framework CFNetwork -force_load ${ProjectDir}/libFlurryWithLocation.a"</MtouchExtraArgs>
     <MtouchI18n />
   </PropertyGroup>
   <ItemGroup>
