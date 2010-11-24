@@ -11,7 +11,7 @@
     <RootNamespace>FlurryTestApp</RootNamespace>
     <MainNibFile>MainWindow.xib</MainNibFile>
     <AssemblyName>FlurryTestApp</AssemblyName>
-    <MtouchSdkVersion>4.1</MtouchSdkVersion>
+    <MtouchSdkVersion>4.2</MtouchSdkVersion>
     <MtouchMinimumOS>3.0</MtouchMinimumOS>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <BundleIdentifier>com.methodsix.flurrytestapp</BundleIdentifier>
@@ -28,7 +28,6 @@
     <WarningLevel>4</WarningLevel>
     <MtouchDebug>True</MtouchDebug>
     <ConsolePause>false</ConsolePause>
-    <MtouchLink>None</MtouchLink>
     <MtouchExtraArgs>-gcc_flags "-weak_framework UIKit
 -weak_library /usr/lib/libSystem.B.dylib -L${ProjectDir} -lFlurryWithLocation -framework CFNetwork -force_load ${ProjectDir}/libFlurryWithLocation.a"</MtouchExtraArgs>
     <MtouchI18n />
@@ -41,7 +40,6 @@
     <WarningLevel>4</WarningLevel>
     <MtouchDebug>False</MtouchDebug>
     <ConsolePause>false</ConsolePause>
-    <MtouchLink>None</MtouchLink>
     <MtouchExtraArgs>-gcc_flags "-weak_framework UIKit
 -weak_library /usr/lib/libSystem.B.dylib  -L${ProjectDir} -lFlurryWithLocation -framework CFNetwork -force_load ${ProjectDir}/libFlurryWithLocation.a"</MtouchExtraArgs>
     <MtouchI18n />
